@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mulish:wght@200&display=swap');
+
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+--myfont: 'Mulish', sans-serif;
+--my-btn-font: 'Montserrat', sans-serif;
+--lg-lightcolor: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+--lg-color: linear-gradient(to left, #C4A484, #9face6);
+}
+
+body {
+	background-color:#ffffff;
+  font-family: var(--myfont);
+}
+
+.container {
+ background-color: #fff;
+ display: flex;
+ height: 50%;
+ width: 80%;
+ margin: auto;
+ margin-top: 50px;
+ border: 1px solid black;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  /* height: 100%; */
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.form h2{
+  font-size: 30px;
+  font-family: var(--myfont);
+  margin: 40px;
+  
+}
+
+.form label{
+  display: inline-block;
+  margin-bottom: 0px;
+	font-weight: bolder;
+  padding-bottom: 0px;
+  align-content: flex-end;
+}
+
+.box {
+  padding: 12px;
+  width: 65%;
+  height: 5%;
+  margin: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+ background-color: whitesmoke;
+}
+
+.box1{
+  padding: 5px;
+  width: 65%;
+  height: 5%;
+  margin: 0px;
+  padding-bottom: 0px;
+ background-color: whitesmoke;
+}
+.check{
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+button{
+  background-color: blue;
+ width: 70%;
+ padding: 10px;
+ margin-top: 40px;
+ color: black;
+ font-weight: bold;
+ border: none;
+ align-self: center;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.message {
+   padding: 15px 0;
+	 text-align: center;
+	 width: 100%;
+   font-weight: bold;
+}
+
+.form a {
+  text-decoration: none;
+  color: black;
+   padding: 15px 0;
+	 text-align: center;
+	 width: 100%;
+   font-weight: bold;
+}
+
+.form a:hover{
+  color: red;
+}
+
+.side{
+  display: flex;
+}
+
+.side img{
+  width: 100%;;
+  height: 100%;
+  background-color: whitesmoke;
+  }
+
+.table{
+  background-color: #fff;
+ display: flex;
+ height: 50%;
+ width: 33%;
+align-items: flex-start;
+ margin-top: 50px;
+ 
+}  
+table tr td {
+  border: solid 2px black;
+	padding: 15px;
+	margin-top: 20%;
+	width: 100%;
+  align-items: center;
+}
+
+.header h2 {
+  color: #222;
+  font-family: var(--myfont);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20%;
+ }
